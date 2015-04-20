@@ -1,0 +1,9 @@
+<div class="modular-row callout">
+    {% set map = page.header.map %}
+    {% if map %}
+    <iframe class="align-right map"
+        {{ map }}
+    ></iframe>
+    {% endif %}
+    {{ content }}
+</div>

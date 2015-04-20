@@ -1,0 +1,48 @@
+/* General layout overrides */
+
+.callout    {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.grid .size-1-2   {
+    margin-left: 2em!important;
+    padding-right: 2em!important;
+}
+
+.small    {
+    font-size: 0.8em!important;
+}
+.firefox    {
+    width: 100%;
+}
+
+
+/* FullCalander overrides */
+
+.fc {
+    font-size: 0.6em!important;
+}
+
+.fc-right h2  {
+    font-size: 3em!important;
+    padding-right: 1em;
+}
+
+
+/* Table overrides */
+
+.column tr:hover
+{
+    background: #1BB3E9!important;
+}
+
+.provisional {
+    background-color: #bbe8f9!important;
+    text-align: center;
+}
+.booked {
+    background-color: #ffb3b3!important;
+    text-align: center;
+}
+

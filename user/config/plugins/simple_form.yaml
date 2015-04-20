@@ -1,0 +1,39 @@
+enabled: true
+
+token: "21a09d10d78ca264d1e2b3aa1f8f8270"
+template_file: "simple_form"
+
+fields:
+  name:
+    type: "text"
+    title: "Name"
+    default: ""
+    placeholder: "Please add your name"
+    class: ""
+    required: true
+
+  email:
+    type: "email"
+    title: "Email"
+    default: ""
+    placeholder: "Please add your email"
+    class: ""
+    required: true
+
+  message:
+    type: "textarea"
+    rows: 7
+    title: "Message"
+    default: ""
+    placeholder: "Please add your message"
+    class: ""
+    required: true
+
+  submit:
+    type: "submit"
+    title: "Send"
+    default: ""
+    class: "button"
+
+messages:
+  success: "Thank you - your message has been sent."

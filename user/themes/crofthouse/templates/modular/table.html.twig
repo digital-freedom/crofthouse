@@ -1,0 +1,19 @@
+<div class="modular-row grid{{ page.header.class}}">
+    <div class="size-1-2">
+    {{ content }}
+    </div>
+    <div class="size-1-2">
+        {% for list in page.header.list %}
+            {% if list.title %}
+            <h3>{{ list.title }}</h3>
+            {% endif %}
+        {% endfor %}
+        <ul>
+    {% for list in page.header.list %}
+            {% if list.text %}
+            <li>{{ list.text }}</li>
+            {% endif %}
+    {% endfor %}
+        </ul>
+    </div>
+</div>
