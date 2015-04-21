@@ -87,7 +87,7 @@ class Image
         'png'   => 'png',
         'gif'   => 'gif',
     );
-
+    
     /**
      * Fallback image
      */
@@ -454,8 +454,8 @@ class Image
         // If the files does not exists, save it
         $image = $this;
 
-        // Target file should be younger than all the current image
-        // dependencies
+        // Target file should be younger than all the current image 
+        // dependencies        
         $conditions = array(
             'younger-than' => $this->getDependencies()
         );

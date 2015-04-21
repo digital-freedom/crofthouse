@@ -2,12 +2,12 @@
 
 // Some standard defines
 define('GRAV', true);
-define('GRAV_VERSION', '0.9.20');
+define('GRAV_VERSION', '0.9.24');
 define('DS', '/');
 
 // Directories and Paths
 if (!defined('GRAV_ROOT')) {
-    define('GRAV_ROOT', getcwd());
+    define('GRAV_ROOT', str_replace(DIRECTORY_SEPARATOR, DS, getcwd()));
 }
 define('ROOT_DIR', GRAV_ROOT . '/');
 define('USER_PATH', 'user/');
@@ -40,6 +40,3 @@ define('RAW_CONTENT', 1);
 define('TWIG_CONTENT', 2);
 define('TWIG_CONTENT_LIST', 3);
 define('TWIG_TEMPLATES', 4);
-
-// Other defines
-define('DEFAULT_IMG_QUALITY', 85);

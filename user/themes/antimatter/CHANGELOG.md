@@ -1,3 +1,15 @@
+# v1.3.9
+## 04/13/2015
+
+1. [](#bugfix)
+    * Fix for image class in modular template 'text.html.twig`
+
+# v1.3.8
+## 04/07/2015
+
+1. [](#improved)
+    * Genericized theme_config variable for better inheritance
+
 # v1.3.7
 ## 03/28/2015
 

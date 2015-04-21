@@ -95,7 +95,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
 
     // ------------------------------------------------------------------
-
+    
     /**
      * Base class for all elements with a visual component
      *
@@ -123,7 +123,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Called after the constructor
-         *
+         * 
          * @param {Object} options
          */
         initialize: function(options) {
@@ -137,7 +137,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Sets the value of an attribute
-         *
+         * 
          * @param {String} attr Can also be an object to set multiple attributes at once
          * @param {Object} value
          */
@@ -159,7 +159,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Checks if an attribute exists and is not null
-         *
+         * 
          * @param {String} attr
          * @return {[type]} [description]
          */
@@ -169,7 +169,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Returns the value of an attribute
-         *
+         * 
          * @param {String} attr
          * @return {Object}
          */
@@ -181,7 +181,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
          * Registers a callback function that will be called whenever the value of the attribute changes
          *
          * If cb is a jQuery element, text() will be used to fill the element
-         *
+         * 
          * @param {String} attr
          * @param {Function} cb
          */
@@ -213,7 +213,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
      * Creates a subclass
      *
      * Code from Backbone.js
-     *
+     * 
      * @param {Array} props Prototype properties
      * @return {Function}
      */
@@ -237,7 +237,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
     /**
      * Tab
-     *
+     * 
      * A tab is composed of a tab label which is always visible and
      * a tab panel which is visible only when the tab is active.
      *
@@ -350,7 +350,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Formats the title of a dataset
-         *
+         * 
          * @this {DatasetTitleFormater}
          * @param {String} id
          * @param {Object} data
@@ -579,7 +579,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
          */
         createTab: function(name, widget, title) {
             var tab = new Tab({
-                title: title || (name.replace(/[_\-]/g, ' ').charAt(0).toUpperCase() + name.slice(1)),
+                title: title || (name.replace(/[_\-]/g, ' ').charAt(0).toUpperCase() + name.slice(1)), 
                 widget: widget
             });
             return this.addTab(name, tab);
@@ -635,7 +635,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Adds an indicator
-         *
+         * 
          * @this {DebugBar}
          * @param {String} name Internal name
          * @param {Indicator} indicator Indicator object
@@ -658,7 +658,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Returns a control
-         *
+         * 
          * @param {String} name
          * @return {Object}
          */
@@ -670,7 +670,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Checks if there's a control under the specified name
-         *
+         * 
          * @this {DebugBar}
          * @param {String} name
          * @return {Boolean}
@@ -681,7 +681,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Checks if a tab with the specified name exists
-         *
+         * 
          * @this {DebugBar}
          * @param {String} name
          * @return {Boolean}
@@ -692,7 +692,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Checks if an indicator with the specified name exists
-         *
+         * 
          * @this {DebugBar}
          * @param {String} name
          * @return {Boolean}
@@ -703,7 +703,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Removes all tabs and indicators from the debug bar and hides it
-         *
+         * 
          * @this {DebugBar}
          */
         reset: function() {
@@ -720,7 +720,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Open the debug bar and display the specified tab
-         *
+         * 
          * @this {DebugBar}
          * @param {String} name If not specified, display the first tab
          */
@@ -771,13 +771,13 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Checks if the panel is minimized
-         *
+         * 
          * @return {Boolean}
          */
         isMinimized: function() {
             return this.$el.hasClass(csscls('minimized'));
         },
-
+        
         /**
          * Close the debug bar
          *
@@ -832,7 +832,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
          *
          * Example:
          *     {"memory": ["memory.peak_usage_str", "0B"]}
-         *
+         * 
          * @this {DebugBar}
          * @param {Object} map
          */
@@ -856,7 +856,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
          *
          * For this method to be usefull, you need to specify
          * a dataMap using setDataMap()
-         *
+         * 
          * @this {DebugBar}
          * @param {Object} data
          * @return {String} Dataset's id
@@ -871,10 +871,10 @@ if (typeof(PhpDebugBar) == 'undefined') {
          *
          * If more than one dataset are added, the dataset selector
          * will be displayed.
-         *
+         * 
          * For this method to be usefull, you need to specify
          * a dataMap using setDataMap()
-         *
+         * 
          * @this {DebugBar}
          * @param {Object} data
          * @param {String} id The name of this set, optional
@@ -897,7 +897,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Loads a dataset using the open handler
-         *
+         * 
          * @param {String} id
          */
         loadDataSet: function(id, suffix, callback) {
@@ -913,7 +913,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Returns the data from a dataset
-         *
+         * 
          * @this {DebugBar}
          * @param {String} id
          * @return {Object}
@@ -924,7 +924,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Switch the currently displayed dataset
-         *
+         * 
          * @this {DebugBar}
          * @param {String} id
          */
@@ -935,7 +935,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Called when the current dataset is modified.
-         *
+         * 
          * @this {DebugBar}
          * @param {Object} data
          */
@@ -954,7 +954,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Sets the handler to open past dataset
-         *
+         * 
          * @this {DebugBar}
          * @param {object} handler
          */
@@ -969,7 +969,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Returns the handler to open past dataset
-         *
+         * 
          * @this {DebugBar}
          * @return {object}
          */
@@ -983,7 +983,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
     DebugBar.Indicator = Indicator;
 
     // ------------------------------------------------------------------
-
+    
     /**
      * AjaxHandler
      *
@@ -998,7 +998,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Handles an XMLHttpRequest
-         *
+         * 
          * @this {AjaxHandler}
          * @param {XMLHttpRequest} xhr
          * @return {Bool}
@@ -1012,7 +1012,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Checks if the HEADER-id exists and loads the dataset using the open handler
-         *
+         * 
          * @param {XMLHttpRequest} xhr
          * @return {Bool}
          */
@@ -1027,7 +1027,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Extracts the id from the HEADER-id
-         *
+         * 
          * @param {XMLHttpRequest} xhr
          * @return {String}
          */
@@ -1037,7 +1037,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Checks if the HEADER exists and loads the dataset
-         *
+         * 
          * @param {XMLHttpRequest} xhr
          * @return {Bool}
          */
@@ -1058,7 +1058,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Extract the data as a string from headers of an XMLHttpRequest
-         *
+         * 
          * @this {AjaxHandler}
          * @param {XMLHttpRequest} xhr
          * @return {string}
@@ -1080,7 +1080,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Parses the string data into an object
-         *
+         * 
          * @this {AjaxHandler}
          * @param {string} data
          * @return {string}
@@ -1091,7 +1091,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
         /**
          * Attaches an event listener to jQuery.ajaxComplete()
-         *
+         * 
          * @this {AjaxHandler}
          * @param {jQuery} jq Optional
          */
@@ -1103,10 +1103,10 @@ if (typeof(PhpDebugBar) == 'undefined') {
                 }
             });
         },
-
+        
         /**
          * Attaches an event listener to XMLHttpRequest
-         *
+         * 
          * @this {AjaxHandler}
          */
         bindToXHR: function() {

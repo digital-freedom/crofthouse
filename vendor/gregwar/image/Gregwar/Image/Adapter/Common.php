@@ -100,7 +100,7 @@ abstract class Common extends Adapter
         }
 
         $exif = exif_read_data($this->source->getInfos());
-
+        
         if(!array_key_exists('Orientation', $exif)) {
             return $this;
         }
@@ -120,21 +120,21 @@ abstract class Common extends Adapter
             case 4: // vertical flip
                 $this->flip(true, false);
                 break;
-
+                   
             case 5: // vertical flip + 90 rotate right
                 $this->flip(true, false);
                 $this->rotate(-90);
                 break;
-
+                   
             case 6: // 90 rotate right
                 $this->rotate(-90);
                 break;
-
+                   
             case 7: // horizontal flip + 90 rotate right
-                $this->flip(false, true);
+                $this->flip(false, true);   
                 $this->rotate(-90);
                 break;
-
+                   
             case 8: // 90 rotate left
                 $this->rotate(90);
                 break;
@@ -315,7 +315,7 @@ abstract class Common extends Adapter
                 }
             }
         }
-
+    
         // right
         for(; $b_rt >= 0; --$b_rt) {
             for($y = $b_top; $y <= $b_btm; ++$y) {
@@ -324,10 +324,10 @@ abstract class Common extends Adapter
                 }
             }
         }
-
+    
         $b_btm++;
         $b_rt++;
-
+                
         $this->crop($b_lft, $b_top, $b_rt - $b_lft, $b_btm - $b_top);
     }
 

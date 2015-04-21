@@ -76,7 +76,7 @@ class ImageColor
                     return hexdec($r);
                 }
             }
-
+            
             // Colors like "rgb(255, 0, 0)"
             if (preg_match('/^rgb\(([0-9]+),([0-9]+),([0-9]+)\)/i', $color_string, $matches)) {
                 $r = $matches[1];

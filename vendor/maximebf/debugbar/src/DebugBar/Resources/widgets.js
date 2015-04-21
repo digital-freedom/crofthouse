@@ -181,11 +181,11 @@ if (typeof(PhpDebugBar) == 'undefined') {
     });
 
     // ------------------------------------------------------------------
-
+    
     /**
      * An extension of KVListWidget where the data represents a list
      * of variables
-     *
+     * 
      * Options:
      *  - data
      */
@@ -214,7 +214,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
     });
 
     // ------------------------------------------------------------------
-
+    
     /**
      * Iframe widget
      *
@@ -318,7 +318,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
             this.bindAttr(['exclude', 'search'], function() {
                 var data = this.get('data'),
-                    exclude = this.get('exclude'),
+                    exclude = this.get('exclude'), 
                     search = this.get('search'),
                     fdata = [];
 
@@ -382,7 +382,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
 
                         m.appendTo(li);
                         this.$el.append(li);
-
+                        
                         if (measure.params && !$.isEmptyObject(measure.params)) {
                             var table = $('<table><tr><th colspan="2">Params</th></tr></table>').addClass(csscls('params')).appendTo(li);
                             for (var key in measure.params) {
@@ -408,7 +408,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
     });
 
     // ------------------------------------------------------------------
-
+    
     /**
      * Widget for the displaying exceptions
      *
@@ -451,6 +451,6 @@ if (typeof(PhpDebugBar) == 'undefined') {
         }
 
     });
-
+    
 
 })(PhpDebugBar.$);

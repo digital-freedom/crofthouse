@@ -150,7 +150,7 @@ ul.phpdebugbar-widgets-timeline {
       right: 5px;
     }
     ul.phpdebugbar-widgets-timeline li span.phpdebugbar-widgets-value {
-      display: block;
+      display: block; 
       position: absolute;
       height: 10px;
       background: #3db9ec;

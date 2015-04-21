@@ -1,3 +1,45 @@
+# v0.9.24
+## 04/15/2015
+
+1. [](#new)
+    * Added support for chunked downloads of Assets
+    * Added new `onBeforeDownload()` event
+    * Added new `download()` and `getMimeType()` methods to Utils class
+    * Added configuration option for supported page types
+    * Added assets and media timestamp options (off by default)
+    * Added page expires configuration option
+2. [](#bugfix)
+    * Fixed issue with Nginx/Gzip and `ob_flush()` throwing error
+    * Fixed assets actions on 'direct media' URLs
+    * Fix for 'direct assets` with any parameters
+
+# v0.9.23
+## 04/09/2015
+
+1. [](#bugfix)
+    * Fix for broken GPM `selfupgrade` (Grav 0.9.21 and 0.9.22 will need to manually upgrade to this version)
+
+# v0.9.22
+## 04/08/2015
+
+1. [](#bugfix)
+    * Fix to normalize GRAV_ROOT path for Windows
+    * Fix to normalize Media image paths for Windows
+    * Fix for GPM `selfupgrade` when you are on latest version
+
+# v0.9.21
+## 04/07/2015
+
+1. [](#new)
+    * Major Media functionality enhancements: SVG, Animated GIF, Video support!
+    * Added ability to configure default image quality in system configuration
+    * Added `sizes` attributes for custom retina image breakpoints
+2. [](#improved)
+    * Don't scale @1x retina images
+    * Add filter to Iterator class
+    * Updated various composer packages
+    * Various PSR fixes
+
 # v0.9.20
 ## 03/24/2015
 

@@ -25,7 +25,7 @@ class Cache
      * For instance, if the file is helloworld.txt and the prefix size is
      * 5, the cache file will be: h/e/l/l/o/helloworld.txt
      *
-     * This is useful to avoid reaching a too large number of files into the
+     * This is useful to avoid reaching a too large number of files into the 
      * cache system directories
      */
     protected $prefixSize = 5;
@@ -214,7 +214,7 @@ class Cache
      * Checks if the targt filename exists in the cache and if the conditions
      * are respected
      *
-     * @param $filename the filename
+     * @param $filename the filename 
      * @param $conditions the conditions to respect
      */
     public function exists($filename, array $conditions = array())
