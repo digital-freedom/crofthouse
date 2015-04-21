@@ -28,3 +28,6 @@ title: links
 | Boat Trips | [Kilda Cruises](http://www.kildacruises.co.uk/) | Boat trips to St Kilda and elsewhere |
 |Boat Trips | [Sea Harris](http://seaharris.com/) | The fastest trips to St Kilda |
 | Outdoor Adventure | [Harris Outdoor Adventure](http://www.harrisoutdoor.co.uk/) | Kayaking, sailing, kayaking, cycling adventures |
+| Genealogy | [Seallam Visitor Centre](http://www.seallam.com/intro.htm) | Information on history of the area plus genealogy research facilities |
+
+####Eating Out

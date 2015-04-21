@@ -19,5 +19,6 @@ content:
             - _bedroom2
             - _bathroom
             - _porch
+            - _video
             - _hook
 ---
