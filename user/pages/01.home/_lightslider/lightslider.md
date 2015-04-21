@@ -26,3 +26,12 @@ ___
 ___
 # A drive on the rough side
 ## Golf on the edge of the Atlantic
+---
+# A bit on the wet side
+## Adventures on sea and loch
+---
+# A fine piece of topside
+## Relax in a small crofting community
+---
+# Evening at the sea side
+## Enjoy the Atlantic sunset

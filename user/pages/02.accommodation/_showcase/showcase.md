@@ -7,4 +7,4 @@ buttons:
 ---
 
 # Welcome to The Croft House
-## The perfect base to explore the Outer Hebrides
+## Come inside and look around
