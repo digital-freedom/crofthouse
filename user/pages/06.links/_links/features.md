@@ -31,3 +31,28 @@ title: links
 | Genealogy | [Seallam Visitor Centre](http://www.seallam.com/intro.htm) | Information on history of the area plus genealogy research facilities |
 
 ####Eating Out
+| Location | Establishment |  |
+|:---:|:---:|:---:|
+| Tarbert | [Hotel Hebrides](http://www.hotel-hebrides.com/dining.php)| Restaurant and Bar Lounge |
+| Tarbert | [Harris Hotel](http://www.harrishotel.com/food.asp) | Lunches and evening meals |
+| Aird Asaig | [Ardhasaig House](http://www.ardhasaig.co.uk/ardhasaig-hotel-food-dining.html) | Evening meals |
+| Rodel | [Rodel Hotel](http://www.rodelhotel.co.uk/index.html?pid=49) | Snacks, lunches and evening meals |
+| Scarista | [Scarista House](http://www.scaristahouse.com/Food.html) | Evening meals |
+| Leverburgh | The Anchorage - [TripAdvisor](http://www.tripadvisor.co.uk/Restaurant_Review-g2187963-d2572453-Reviews-The_Anchorage-Leverburgh_Isle_of_Harris_Lewis_and_Harris_Outer_Hebrides_The_Hebr.html) | Lunch and evening meals |
+| Northton | [The Temple Cafe](https://www.facebook.com/TheTempleCafe/) | Snacks and lunches - Sunday evening meals |
+
+####Arts and Crafts
+| Location | Establishment |  |
+|:---:|:---:|:---:|
+| Drinishader | [Ardbuidhe Gallery](http://www.williefulton.com/) | The studio and gallery of Willie Fulton |
+| Seilebost | [Hebrides Art](http://www.hebridesart.co.uk/) | Gallery and coffee shop |
+| Holmasaig | [Holmasaig Gallery](http://www.holmasaiggallery.com/) | Margarita Williams watercolours and mixed media works |
+| Scarista | [Scarista Studio](http://www.milespaintings.co.uk/) | The human figures and watercolour landscapes of David Miles |
+| Finsbay | [Finsbay Gallery](http://www.finsbaygallery.co.uk/) | Studio glass, jewellery, photography, paintings & artists prints |
+| Finsbay | [The Mission House](http://missionhousestudio.blogspot.co.uk/) | Fine art photography and ceramics |
+| Tarbert | [Black Lab Photos](http://www.blacklabphotos.com/) | Photography and prints |
+| Grosebay | [The Harris Tweed Company](http://harristweedco.co.uk/about_us) | All things Harris Tweed |
+| Tarbert | [The Tweed Shop](http://www.harristweedisleofharris.co.uk/index.php/aboutus/opening-times) | Harris Tweed shop and warehouse |
+| Drinishader | [Harris Tweed Exhibition](http://www.harristweedisleofharris.co.uk/) | Exhibition and weaving demonstrations |
+| Ardhasaig | [Hebscape](http://www.hebscapegallery.co.uk/) | Gallery and tearoom |
+| Leverburgh | [The Flying Monk](http://www.theflyingmonk.co.uk/) | Photography | 
