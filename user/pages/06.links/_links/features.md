@@ -6,7 +6,7 @@ title: links
 | | Operator | Contact Details |
 |:---:|:---:|:---:|
 | Ferries | [Caledonian MacBrayne](https://www.calmac.co.uk) | 0800 066 5000 / [Email](mailto:enquiries@calmac.co.uk) |
-| Air | [Stornoway Airport](www.hial.co.uk) | 01851 707400 / [Email](mailto:info@hial.co.uk) |
+| Air | [Stornoway Airport](http://www.hial.co.uk/) | 01851 707400 / [Email](mailto:info@hial.co.uk) |
 | Buses | [Hebridean Transport](http://www.cne-siar.gov.uk/travel/busservice/) | 01851 705050 |
 | Buses | Stornoway Bus Station | 01851 704327 |
 | Taxi | Tarbert Taxi | 01859 502221 / 07730 764393 |
@@ -19,7 +19,7 @@ title: links
 ####Activities
 | Activity | Provider |  |
 |:---:|:---:|:---:|
-| Fishing | [Fish Hebrides](www.fishhebrides.co.uk) | Details of fishing all around the Outer Hebrides |
+| Fishing | [Fish Hebrides](http://www.fishpal.com/Scotland/Hebrides/?dom=Hebrides) | Details of fishing all around the Outer Hebrides |
 | Stalking / Fishing | [Amhuinnsuidhe Castle](http://www.amhuinnsuidhe.com/) | Amhuinnsuidhe Estate can organise fishing and field sports |
 | Guided Walks | [North Harris Trust](http://www.north-harris.org/events/) | Regular organised walks, including Golden and Sea Eagle searches |
 | Guided Hillwalking | [Mike Briggs](http://www.mikeandpeggybriggs.co.uk/hill.htm) | A personalised guided walking service |
@@ -55,4 +55,4 @@ title: links
 | Tarbert | [The Tweed Shop](http://www.harristweedisleofharris.co.uk/index.php/aboutus/opening-times) | Harris Tweed shop and warehouse |
 | Drinishader | [Harris Tweed Exhibition](http://www.harristweedisleofharris.co.uk/) | Exhibition and weaving demonstrations |
 | Ardhasaig | [Hebscape](http://www.hebscapegallery.co.uk/) | Gallery and tearoom |
-| Leverburgh | [The Flying Monk](http://www.theflyingmonk.co.uk/) | Photography | 
+| Leverburgh | [The Flying Monk](http://www.theflyingmonk.co.uk/) | Photography |
