@@ -11,7 +11,7 @@ title: links
 | Buses | Stornoway Bus Station | 01851 704327 |
 | Taxi | Tarbert Taxi | 01859 502221 / 07730 764393 |
 | Taxi | Stornoway Taxis | 01851 704444 / [Email](mailto:stornowaytaxis@btinternet.com) |
-| Car Hire | [Stornoway Car Hire](http://www.stornowaycarhire.co.uk/index.html) | 01851 702 658 [Email](mailto:info@stornowaycarhire.co.uk) |
+| Car Hire | [Isle of Haris Car Hire](http://www.isleofharris-carhire.com/) | 01851 702 658 [Email](mailto:info@isleofharris-carhire.com) |
 | Car Hire | [Arnol Motors](http://www.arnolmotors.com/) | 01851 710548 [Email](mailto:arnolmotors@aol.com) |
 | Car Hire | [Carhire Hebrides](http://www.carhire-hebrides.co.uk/) | 01851 706 500 [Email](mailto:info@carhire-hebrides.co.uk) |
 
@@ -54,5 +54,6 @@ title: links
 | Grosebay | [The Harris Tweed Company](http://harristweedco.co.uk/about_us) | All things Harris Tweed |
 | Tarbert | [The Tweed Shop](http://www.harristweedisleofharris.co.uk/index.php/aboutus/opening-times) | Harris Tweed shop and warehouse |
 | Drinishader | [Harris Tweed Exhibition](http://www.harristweedisleofharris.co.uk/) | Exhibition and weaving demonstrations |
-| Ardhasaig | [Hebscape](http://www.hebscapegallery.co.uk/) | Gallery and tearoom |
+| Ardhasaig | [Hebscape](http://www.skoon.com/) | Gallery and cafe |
+| Geocrab | [Skoon Art Cafe](http://www.hebscapegallery.co.uk/) | Gallery and tearoom |
 | Leverburgh | [The Flying Monk](http://www.theflyingmonk.co.uk/) | Photography |

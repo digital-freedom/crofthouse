@@ -24,9 +24,6 @@ ___
 # A touch on the high side
 ## Stand on the roof of the isles
 ___
-# A drive on the rough side
-## Golf on the edge of the Atlantic
----
 # A bit on the wet side
 ## Adventures on sea and loch
 ---

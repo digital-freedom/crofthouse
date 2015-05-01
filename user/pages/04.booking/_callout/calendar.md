@@ -11,13 +11,18 @@ title: calendars
 </div>
 <div class="grid">
 <div class="">
-<table style="width:250px">
+<table style="width:150px">
 <tr class="booked"><td>Confirmed Booking</td></tr>
 </table>
 </div>
 <div class="">
-<table style="width:250px">
+<table style="width:150px">
 <tr class="provisional"><td>Provisional Booking</td></tr>
+</table>
+</div>
+<div class="">
+<table style="width:150px">
+<tr class="free"><td>This could be your week!</td></tr>
 </table>
 </div>
 </div>
