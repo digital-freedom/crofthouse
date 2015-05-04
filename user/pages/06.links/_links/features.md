@@ -11,7 +11,7 @@ title: links
 | Buses | Stornoway Bus Station | 01851 704327 |
 | Taxi | Tarbert Taxi | 01859 502221 / 07730 764393 |
 | Taxi | Stornoway Taxis | 01851 704444 / [Email](mailto:stornowaytaxis@btinternet.com) |
-| Car Hire | [Isle of Haris Car Hire](http://www.isleofharris-carhire.com/) | 01851 702 658 [Email](mailto:info@isleofharris-carhire.com) |
+| Car Hire | [Isle of Haris Car Hire](http://www.isleofharris-carhire.com/) | 07825 222 020 [Email](mailto:info@isleofharris-carhire.com) |
 | Car Hire | [Arnol Motors](http://www.arnolmotors.com/) | 01851 710548 [Email](mailto:arnolmotors@aol.com) |
 | Car Hire | [Carhire Hebrides](http://www.carhire-hebrides.co.uk/) | 01851 706 500 [Email](mailto:info@carhire-hebrides.co.uk) |
 

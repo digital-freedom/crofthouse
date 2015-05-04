@@ -39,9 +39,9 @@ title: calendars
     cal0.fullCalendar({
         googleCalendarApiKey: 'AIzaSyBl_bxQ1_qO7M5SiIx0POw--cCgN0oNHOY',
         header: {
-            left: '',
+            left: 'title',
             center: '',
-            right: 'title'
+            right: ''
         },
         eventClick: function(event) {
         if (event.url) {
@@ -79,9 +79,9 @@ title: calendars
     cal1.fullCalendar({
         googleCalendarApiKey: 'AIzaSyBl_bxQ1_qO7M5SiIx0POw--cCgN0oNHOY',
         header: {
-            left: '',
+            left: 'title',
             center: '',
-            right: 'title'
+            right: ''
         },
         eventClick: function(event) {
         if (event.url) {
@@ -110,9 +110,9 @@ title: calendars
     cal2.fullCalendar({
         googleCalendarApiKey: 'AIzaSyBl_bxQ1_qO7M5SiIx0POw--cCgN0oNHOY',
         header: {
-            left: '',
+            left: 'title',
             center: '',
-            right: 'title'
+            right: ''
         },
         firstDay: 6,
         eventClick: function(event) {
