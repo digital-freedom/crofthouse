@@ -1,5 +1,5 @@
 ---
-title: Your holiday cottage in Borve, Isle of Harris - Useful Links
+title: Your holiday cottage in Borve, Isle of Harris - Privacy Policy
 menu: Privacy
 visible: false
 onpage_menu: false
