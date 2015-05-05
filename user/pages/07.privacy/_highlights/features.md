@@ -14,7 +14,11 @@ We prefer that you get in touch with us through our [contact](/booking) form, or
 
 If you'd rather contact us through a non electronic means you can find us here ...
 
-> Your address
+> 1 Borve
+
+>  Isle of Harris
+
+> HS3 3HT
 
 > Tel: 07835 522 704 / 07990 503882
 
